@@ -18,5 +18,5 @@ class RegisterModal(discord.ui.Modal, title="Register Valorant Account"):
 
         cur.execute("INSERT OR REPLACE INTO users (discord_id, riot_name, riot_tag, region) VALUES(?,?,?,?)", [discord_id, name, tag, region])
         conn.commit()
-        
+
         await interaction.response.send_message("Registration succesfull")

@@ -107,7 +107,7 @@ async def lastmatch(ctx, member: discord.Member):
     mmr_change = last_match.get("mmr_change_to_last_game", 0 )
     if mmr_change > 0:
         result = f"Won ({mmr_change} mmr)"
-        color = discord.color.green()
+        color = discord.Color.green()
     elif mmr_change < 0:
         result = f"Lost ({mmr_change} mmr)"
         color = discord.Color.red()
