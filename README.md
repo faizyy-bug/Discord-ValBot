@@ -1,5 +1,6 @@
-Discord Valorant Bot
+DISCORD VALORANT BOT
 
-Fun discord bot to add if you would like to know the stats of a player in your discord server!
+A discord bot that tracks the stats of the discord user mentioned.
 
-How to use the bot:
+!lastmatch (discord_name) -> shows a little stats table which contains the players kills, deaths, rank, map and result of game in MMR
+/register -> opens up a form where the user can fill in his riot name, tag (without #) and region (eu/na)
